@@ -1,0 +1,98 @@
+/* estilo general */
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+/* clase flexible centrada */
+
+.contenedor-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+/* imagen del nav */
+
+.nav__container img {
+    width: 160px;
+}
+
+/* titulo */
+
+.form__tittle{
+    font-size: 25px;
+}
+
+/* inputs */
+
+.form__input{
+    width: 350px;
+    height: 35px;
+    padding-left: 15px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* boton de ingresar */
+
+.form__submit__btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,39,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+.form__submit__btn:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,26,89,1) 0%, rgba(0,127,153,1) 100%);
+}
+
+/* links del footer */
+
+.footer__links{
+    margin-top: 20px;
+}
+.footer__links a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: rgb(2,0,36);
+}
+
+/* Error & Success */
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form__field.error input {
+    border: 1px solid #dc3545;
+}
+
+.form__field.success input {
+    border: 1px solid #28a745;
+}
+
+.form__field small {
+    color: #dc3545;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}

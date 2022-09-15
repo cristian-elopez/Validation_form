@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Validación</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav__container">
+            <img src="the-motoland-logo-bordes.png" alt="The Motoland Logo"/>
+        </nav>
+    </header>
+    
+    <main>
+        <form class="form__container" id="form" novalidate>
+            <h1 class="form__tittle">Crea tu cuenta</h1>
+            <div class="contenedor-flex">
+                <label class="form__field" for="username">
+                    <input type="text" placeholder="Username" class="form__input" id="username" autocomplete="off"/>
+                    <small></small>
+                </label>
+                <label class="form__field" for="email">
+                    <input type="email" placeholder="Email" class="form__input" id="email" autocomplete="off"/>
+                    <small></small>
+                </label>
+                <label class="form__field" for="password">
+                    <input type="password" placeholder="Password" class="form__input" id="password" autocomplete="off"/>
+                    <small></small>
+                </label>
+                <label class="form__field" for="phone">
+                    <input type="text" placeholder="Telefono" class="form__input" id="phone" autocomplete="off"/>
+                    <small></small>
+                </label>
+                <label class="form__field" for="form__submit__btn">
+                    <input type="submit" class="form__submit__btn" id="form__submit__btn" value="Ingresar"/>
+                </label>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer__links">
+            <a href="#">Términos de Uso</a>
+            <a href="#">Trabajá con nosotros</a>
+            <a href="#">Soporte</a>
+        </div>
+        <p>By Cristian Lopez</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
